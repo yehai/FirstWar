@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<changelog xmlns="http://www.omnigroup.com/namespace/OmniPlan/v2">
+  <version>2.0</version>
+  <task-change-set user="qiup" date="2012-12-09T15:13:12.785Z" timestamp="2012-12-09T15:13:12.785Z">
+    <change idref="t1" from="t-1" from-position="0" resolved="yes">
+      <change idref="t1" attribute="title" type="string" to="任务 1"/>
+    </change>
+    <change idref="t13" to="t-1" to-position="0" resurrection="yes" resolved="yes">
+      <change idref="t13" attribute="endConstraintDate" type="date" to="2012-12-20T16:00:00.000Z"/>
+      <change idref="t13" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t13" attribute="startConstraintDate" type="date" to="2012-12-10T00:00:00.000Z"/>
+      <change idref="t13" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t13" attribute="title" type="string" to="预研"/>
+    </change>
+    <change idref="t20" to="t14" to-position="0" resolved="yes">
+      <change idref="t20" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t20" attribute="resourceLeveledDate" type="date" to="2012-12-12T00:00:00.000Z"/>
+      <change idref="t20" attribute="title" type="string" to="模块设计"/>
+    </change>
+    <change idref="t22" to="t14" to-position="1" resolved="yes">
+      <change idref="t22" attribute="effort" type="real" from="28800" to="36000"/>
+      <change idref="t22" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t22" attribute="internalPrerequisitesString" type="string" to="20FS"/>
+      <change idref="t22" attribute="resourceLeveledDate" type="date" to="2012-12-13T00:00:00.000Z"/>
+      <change idref="t22" attribute="title" type="string" to="类设计"/>
+    </change>
+    <change idref="t27" to="t14" to-position="2" resolved="yes">
+      <change idref="t27" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t27" attribute="internalPrerequisitesString" type="string" to="22FS"/>
+      <change idref="t27" attribute="resourceLeveledDate" type="date" to="2012-12-14T02:00:00.000Z"/>
+      <change idref="t27" attribute="title" type="string" to="编码"/>
+    </change>
+    <change idref="t23" to="t14" to-position="3" resolved="yes">
+      <change idref="t23" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t23" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t23" attribute="internalPrerequisitesString" type="string" to="27FS"/>
+      <change idref="t23" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t23" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t23" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t23" attribute="title" type="string" to="原型系统"/>
+    </change>
+    <change idref="t2" to="t13" to-position="0" resolved="yes">
+      <change idref="t2" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t2" attribute="endConstraintDate" type="date" to="2012-12-09T16:00:00.000Z"/>
+      <change idref="t2" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t2" attribute="resourceLeveledDate" type="date" to="2012-12-10T00:00:00.000Z"/>
+      <change idref="t2" attribute="startConstraintDate" type="date" to="2012-12-10T00:00:00.000Z"/>
+      <change idref="t2" attribute="title" type="string" to="需求分析"/>
+    </change>
+    <change idref="t3" to="t13" to-position="1" resolved="yes">
+      <change idref="t3" attribute="effort" type="real" from="28800" to="10800"/>
+      <change idref="t3" attribute="endConstraintDate" type="date" to="2012-12-10T16:00:00.000Z"/>
+      <change idref="t3" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t3" attribute="resourceLeveledDate" type="date" to="2012-12-10T06:00:00.000Z"/>
+      <change idref="t3" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t3" attribute="startConstraintDate" type="date" to="2012-12-10T00:00:00.000Z"/>
+      <change idref="t3" attribute="title" type="string" to="前景规划"/>
+    </change>
+    <change idref="t26" to="t13" to-position="2" resolved="yes">
+      <change idref="t26" attribute="effort" type="real" from="28800" to="21600"/>
+      <change idref="t26" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t26" attribute="internalPrerequisitesString" type="string" to="2FS"/>
+      <change idref="t26" attribute="resourceLeveledDate" type="date" to="2012-12-11T00:00:00.000Z"/>
+      <change idref="t26" attribute="startConstraintDate" type="date" to="2012-12-11T00:00:00.000Z"/>
+      <change idref="t26" attribute="title" type="string" to="技术方案"/>
+    </change>
+    <change idref="t14" to="t13" to-position="3" resolved="yes">
+      <change idref="t14" attribute="internalPrerequisitesString" type="string" to="26FS"/>
+      <change idref="t14" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t14" attribute="startConstraintDate" type="date" to="2012-12-12T00:00:00.000Z"/>
+      <change idref="t14" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t14" attribute="title" type="string" to="原型"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="qiup" date="2012-12-09T15:14:49.416Z" timestamp="2012-12-09T15:14:49.416Z">
+    <change idref="t2" attribute="resourceLeveledDate" type="date" from="2012-12-10T00:00:00.000Z" to="2012-12-10T01:00:00.000Z" resolved="yes"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" from="2012-12-10T06:00:00.000Z" to="2012-12-10T11:00:00.000Z" resolved="yes"/>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2012-12-12T00:00:00.000Z" to="2012-12-12T01:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2012-12-13T00:00:00.000Z" to="2012-12-12T12:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="resourceLeveledDate" type="date" from="2012-12-11T00:00:00.000Z" to="2012-12-11T01:00:00.000Z" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2012-12-14T02:00:00.000Z" to="2012-12-13T12:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="qiup" date="2012-12-09T15:32:54.128Z" timestamp="2012-12-09T15:32:54.128Z">
+    <change idref="t23" from="t14" from-position="3" to="t-1" to-position="1" resolved="yes"/>
+    <change idref="t34" to="t-1" to-position="2" resolved="yes">
+      <change idref="t34" attribute="internalPrerequisitesString" type="string" to="13FS"/>
+      <change idref="t34" attribute="isGroup" type="real" from="0" to="1"/>
+      <change idref="t34" attribute="startConstraintDate" type="date" to="2012-12-12T04:00:00.000Z"/>
+      <change idref="t34" attribute="taskType" type="real" from="0" to="2"/>
+      <change idref="t34" attribute="title" type="string" to="细化设计"/>
+    </change>
+    <change idref="t35" to="t-1" to-position="3" resolved="yes">
+      <change idref="t35" attribute="effort" type="real" from="28800" to="1080000"/>
+      <change idref="t35" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t35" attribute="internalPrerequisitesString" type="string" to="34FS"/>
+      <change idref="t35" attribute="resourceLeveledDate" type="date" to="2012-12-18T01:00:00.000Z"/>
+      <change idref="t35" attribute="title" type="string" to="编码"/>
+    </change>
+    <change idref="t36" to="t-1" to-position="4" resolved="yes">
+      <change idref="t36" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t36" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t36" attribute="internalPrerequisitesString" type="string" to="35FS"/>
+      <change idref="t36" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t36" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t36" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t36" attribute="title" type="string" to="v0.1beta"/>
+    </change>
+    <change idref="t37" to="t-1" to-position="5" resolved="yes">
+      <change idref="t37" attribute="effort" type="real" from="28800" to="756000"/>
+      <change idref="t37" attribute="internalPrerequisitesString" type="string" to="35FS"/>
+      <change idref="t37" attribute="title" type="string" to="功能测试"/>
+    </change>
+    <change idref="t38" to="t-1" to-position="6" resolved="yes">
+      <change idref="t38" attribute="effort" type="real" from="28800" to="1080000"/>
+      <change idref="t38" attribute="internalPrerequisitesString" type="string" to="37FS"/>
+      <change idref="t38" attribute="title" type="string" to="美化"/>
+    </change>
+    <change idref="t41" to="t-1" to-position="7" resolved="yes">
+      <change idref="t41" attribute="effort" type="real" from="28800" to="1080000"/>
+      <change idref="t41" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t41" attribute="internalPrerequisitesString" type="string" to="38FS"/>
+      <change idref="t41" attribute="resourceLeveledDate" type="date" to="2013-03-05T03:00:00.000Z"/>
+      <change idref="t41" attribute="title" type="string" to="v0.1release"/>
+    </change>
+    <change idref="t39" to="t-1" to-position="8" resolved="yes">
+      <change idref="t39" attribute="effort" type="real" from="28800" to="252000"/>
+      <change idref="t39" attribute="internalPrerequisitesString" type="string" to="41FS"/>
+      <change idref="t39" attribute="title" type="string" to="集成测试"/>
+    </change>
+    <change idref="t40" to="t-1" to-position="9" resolved="yes">
+      <change idref="t40" attribute="effort" type="real" from="28800" to="0"/>
+      <change idref="t40" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t40" attribute="internalPrerequisitesString" type="string" to="39FS"/>
+      <change idref="t40" attribute="isSplittableTask" type="real" from="1" to="0"/>
+      <change idref="t40" attribute="percentCompleteForMilestone" type="real" to="0"/>
+      <change idref="t40" attribute="taskType" type="real" from="0" to="1"/>
+      <change idref="t40" attribute="title" type="string" to="v1.0release"/>
+    </change>
+    <change idref="t20" attribute="resourceLeveledDate" type="date" from="2012-12-12T01:00:00.000Z" to="2012-12-12T03:00:00.000Z" resolved="yes"/>
+    <change idref="t22" attribute="resourceLeveledDate" type="date" from="2012-12-12T12:00:00.000Z" to="2012-12-13T01:00:00.000Z" resolved="yes"/>
+    <change idref="t26" attribute="effort" type="real" from="21600" to="43200" resolved="yes"/>
+    <change idref="t27" attribute="resourceLeveledDate" type="date" from="2012-12-13T12:00:00.000Z" to="2012-12-14T01:00:00.000Z" resolved="yes"/>
+    <change idref="t45" to="t34" to-position="0" resolved="yes">
+      <change idref="t45" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t45" attribute="resourceLeveledDate" type="date" to="2012-12-14T12:00:00.000Z"/>
+      <change idref="t45" attribute="title" type="string" to="模块细化"/>
+    </change>
+    <change idref="t46" to="t34" to-position="1" resolved="yes">
+      <change idref="t46" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t46" attribute="resourceLeveledDate" type="date" to="2012-12-16T05:00:00.000Z"/>
+      <change idref="t46" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t46" attribute="title" type="string" to="自动化测试环境"/>
+    </change>
+    <change idref="t47" to="t34" to-position="2" resolved="yes">
+      <change idref="t47" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t47" attribute="resourceLeveledDate" type="date" to="2012-12-15T10:00:00.000Z"/>
+      <change idref="t47" attribute="title" type="string" to="情景CheckList"/>
+    </change>
+    <change idref="t48" to="t34" to-position="3" resolved="yes">
+      <change idref="t48" attribute="internalAssignments" type="string" from="" to="1"/>
+      <change idref="t48" attribute="resourceLeveledDate" type="date" to="2012-12-17T03:00:00.000Z"/>
+      <change idref="t48" attribute="scheduleType" type="real" from="0" to="1"/>
+      <change idref="t48" attribute="title" type="string" to="功能CheckList"/>
+    </change>
+  </task-change-set>
+  <task-change-set user="qiup" date="2012-12-09T15:33:34.695Z" timestamp="2012-12-09T15:33:34.695Z">
+    <change idref="t2" attribute="startConstraintDate" type="date" from="2012-12-10T00:00:00.000Z" resolved="yes"/>
+    <change idref="t2" attribute="endConstraintDate" type="date" from="2012-12-09T16:00:00.000Z" resolved="yes"/>
+  </task-change-set>
+  <task-change-set user="qiup" date="2012-12-09T15:34:35.928Z" timestamp="2012-12-09T15:34:35.928Z">
+    <change idref="t2" attribute="effort" type="real" from="10800" to="18000"/>
+    <change idref="t3" attribute="effort" type="real" from="10800" to="18000"/>
+    <change idref="t3" attribute="scheduleType" type="real" from="1" to="0"/>
+    <change idref="t3" attribute="resourceLeveledDate" type="date" from="2012-12-10T11:00:00.000Z" to="2012-12-10T09:00:00.000Z"/>
+  </task-change-set>
+  <resource-change-set user="qiup" date="2012-12-09T15:13:12.784Z" timestamp="2012-12-09T15:13:12.784Z">
+    <change idref="r1" attribute="name" type="string" from="资源 1" to="qiup" resolved="yes"/>
+  </resource-change-set>
+  <resource-change-set user="qiup" date="2012-12-09T15:14:49.415Z" timestamp="2012-12-09T15:14:49.415Z">
+    <change idref="r-1" attribute="standardHoursString" type="string" from="-;-;-;-;-;-;-" to="32400,48600,57600,79200;32400,48600,57600,79200;32400,48600,57600,79200;32400,48600,57600,79200;32400,48600,57600,79200;32400,48600,57600,79200;32400,48600,57600,79200" resolved="yes"/>
+  </resource-change-set>
+  <metadata-change-set user="qiup" date="2012-12-09T14:44:53.364Z" timestamp="2012-12-09T14:44:53.364Z">
+    <change idref="m1" attribute="fixedDate" type="date" from="2007-01-01T20:00:00.000Z" to="2012-12-08T16:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+  <metadata-change-set user="qiup" date="2012-12-09T15:13:12.784Z" timestamp="2012-12-09T15:13:12.784Z">
+    <change idref="m1" attribute="scheduleGranularity" type="real" from="0" to="1" resolved="yes"/>
+    <change idref="m1" attribute="fixedDate" type="date" from="2012-12-08T16:00:00.000Z" to="2012-12-10T00:00:00.000Z" resolved="yes"/>
+  </metadata-change-set>
+</changelog>
