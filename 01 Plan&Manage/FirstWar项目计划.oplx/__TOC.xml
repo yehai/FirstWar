@@ -8,15 +8,15 @@
     <status-display>basic</status-display>
     <task-view>
       <split-view-divider-position>274</split-view-divider-position>
-      <outline x="0" y="0" w="274" h="505">
+      <outline x="0" y="0" w="274" h="526">
         <column name="Violations" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Title" width="159"/>
         <column name="Effort" width="70"/>
-        <expanded-items idrefs="t34 t13 t14"/>
-        <selected-items-at-filter-time idrefs="t26 t45 t13 t32 t51 t27 t46 t14 t33 t52 t20 t47 t34 t29 t40 t48 t35 t22 t41 t49 t36 t2 t23 t42 t3 t37 t43 t30 t38 t44 t31 t39 t50"/>
+        <expanded-items idrefs="t34 t14 t13"/>
+        <selected-items-at-filter-time idrefs="t46 t38 t13 t34 t26 t2 t39 t47 t22 t14 t3 t35 t27 t48 t23 t36 t40 t45 t37 t20 t41"/>
       </outline>
-      <gantt-view x="334" y="0" w="443" h="505">
+      <gantt-view x="95" y="0" w="624" h="526">
         <view-mode>actual</view-mode>
         <dependency-lines/>
         <constraints/>
@@ -48,13 +48,13 @@
           <key>Assigned</key>
         </task-bar-label>
         <scale scale-name="Automatic" full-day-width="300"/>
-        <scale scale-name="Day" full-day-width="1215">
-          <selected/>
-        </scale>
+        <scale scale-name="Day" full-day-width="1215"/>
         <scale scale-name="Hour" full-day-width="65880"/>
         <scale scale-name="Minute" full-day-width="64800"/>
         <scale scale-name="Month" full-day-width="34.5"/>
-        <scale scale-name="Quarter" full-day-width="9.6"/>
+        <scale scale-name="Quarter" full-day-width="9.6">
+          <selected/>
+        </scale>
         <scale scale-name="Week" full-day-width="162"/>
         <scale scale-name="Year" full-day-width="2.3625"/>
       </gantt-view>
@@ -68,7 +68,7 @@
         <column name="Resource" width="121"/>
         <column name="#" width="75"/>
       </outline>
-      <timeline x="-200" y="0" w="564" h="526">
+      <timeline x="-79" y="0" w="564" h="526">
         <task-bar-label task-type="group" position="left">
           <key>Title</key>
         </task-bar-label>
@@ -110,7 +110,7 @@
     </resource-view>
     <calendar>
       <split-view-divider-position>290</split-view-divider-position>
-      <outline x="0" y="0" w="290" h="491">
+      <outline x="0" y="0" w="290" h="495">
         <column name="IM" width="20"/>
         <column name="Notes" width="20"/>
         <column name="Type" width="49"/>
@@ -121,6 +121,7 @@
     </calendar>
   </window>
   <project>
+    <title>FirstWar项目计划</title>
     <next-task-id>53</next-task-id>
     <next-resource-id>3</next-resource-id>
     <scenario id="ggStmCLZEb8" name="Actual" filename="Actual.xml"/>
@@ -176,6 +177,37 @@
         </value>
       </style>
     </not-editable-style>
+    <publish publish-allocations="true" subscribe-to-allocations="true">
+      <key>active</key>
+      <string>YES</string>
+      <key>serverURL</key>
+      <string>https://sync.omnigroup.com:443/yehai/</string>
+      <key>lastSeenChange</key>
+      <date>2012-12-26T18:24:49.165Z</date>
+      <key>last-updated</key>
+      <date>2012-12-29T15:35:19.044Z</date>
+      <key>class</key>
+      <string>OPWebDAVChangeSyncAction</string>
+      <key>uuid</key>
+      <string>bgDxAvvJtWp</string>
+      <key>serverAccount</key>
+      <string>iZqiFvmMtXK</string>
+      <key>etag</key>
+      <string>&quot;5c5c67-5fa8-4d1c58bad5e40&quot;</string>
+    </publish>
+    <publish publish-allocations="true" subscribe-to-allocations="true">
+      <key>active</key>
+      <string>YES</string>
+      <key>last-updated</key>
+      <date>2012-12-29T15:35:47.083Z</date>
+      <key>class</key>
+      <string>OPLocalCalendarSyncAction</string>
+      <key>localCalendarUID</key>
+      <string>5DF3FB72-EAE7-4EA3-B808-08E36F544B52</string>
+      <key>uuid</key>
+      <string>mRZGQZyLjKQ</string>
+    </publish>
+    <publish-on-save/>
     <subscribe-refresh>0</subscribe-refresh>
     <leveling/>
     <page-adornment>

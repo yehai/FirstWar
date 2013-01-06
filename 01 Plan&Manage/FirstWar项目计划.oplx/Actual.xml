@@ -103,24 +103,23 @@
   </task>
   <task id="t2">
     <title>需求分析</title>
-    <leveled-start>2012-12-10T01:00:00.000Z</leveled-start>
+    <leveled-start>2012-12-25T01:00:00.000Z</leveled-start>
     <effort>18000</effort>
+    <effort-done>18000</effort-done>
     <assignment idref="r1"/>
   </task>
   <task id="t3">
     <title>前景规划</title>
-    <leveled-start>2012-12-10T09:00:00.000Z</leveled-start>
+    <leveled-start>2012-12-25T01:00:00.000Z</leveled-start>
     <effort>18000</effort>
-    <start-constraint-date>2012-12-10T00:00:00.000Z</start-constraint-date>
-    <end-constraint-date>2012-12-10T16:00:00.000Z</end-constraint-date>
+    <effort-done>18000</effort-done>
     <assignment idref="r1"/>
   </task>
   <task id="t13">
     <title>预研</title>
     <type>group</type>
     <splittable>no</splittable>
-    <start-constraint-date>2012-12-10T00:00:00.000Z</start-constraint-date>
-    <end-constraint-date>2012-12-20T16:00:00.000Z</end-constraint-date>
+    <start-constraint-date>2012-12-24T16:00:00.000Z</start-constraint-date>
     <child-task idref="t2"/>
     <child-task idref="t3"/>
     <child-task idref="t26"/>
@@ -129,7 +128,6 @@
   <task id="t14">
     <title>原型</title>
     <type>group</type>
-    <start-constraint-date>2012-12-12T00:00:00.000Z</start-constraint-date>
     <child-task idref="t20"/>
     <child-task idref="t22"/>
     <child-task idref="t27"/>
@@ -137,13 +135,14 @@
   </task>
   <task id="t20">
     <title>模块设计</title>
-    <leveled-start>2012-12-12T03:00:00.000Z</leveled-start>
+    <leveled-start>2012-12-26T18:24:19.602Z</leveled-start>
     <effort>28800</effort>
+    <effort-done>28800</effort-done>
     <assignment idref="r1"/>
   </task>
   <task id="t22">
     <title>类设计</title>
-    <leveled-start>2012-12-13T01:00:00.000Z</leveled-start>
+    <leveled-start>2012-12-27T12:00:00.000Z</leveled-start>
     <effort>36000</effort>
     <prerequisite-task idref="t20"/>
     <assignment idref="r1"/>
@@ -156,23 +155,22 @@
   </task>
   <task id="t26">
     <title>技术方案</title>
-    <leveled-start>2012-12-11T01:00:00.000Z</leveled-start>
+    <leveled-start>2012-12-25T09:00:00.000Z</leveled-start>
     <effort>43200</effort>
-    <start-constraint-date>2012-12-11T00:00:00.000Z</start-constraint-date>
+    <effort-done>43200</effort-done>
     <prerequisite-task idref="t2"/>
     <assignment idref="r1"/>
   </task>
   <task id="t27">
     <title>编码</title>
-    <leveled-start>2012-12-14T01:00:00.000Z</leveled-start>
-    <effort>28800</effort>
+    <leveled-start>2012-12-28T12:00:00.000Z</leveled-start>
+    <effort>253800</effort>
     <prerequisite-task idref="t22"/>
     <assignment idref="r1"/>
   </task>
   <task id="t34">
     <title>细化设计</title>
     <type>group</type>
-    <start-constraint-date>2012-12-12T04:00:00.000Z</start-constraint-date>
     <child-task idref="t45"/>
     <child-task idref="t46"/>
     <child-task idref="t47"/>
@@ -181,7 +179,7 @@
   </task>
   <task id="t35">
     <title>编码</title>
-    <leveled-start>2012-12-18T01:00:00.000Z</leveled-start>
+    <leveled-start>2013-01-07T11:00:00.000Z</leveled-start>
     <effort>1080000</effort>
     <prerequisite-task idref="t34"/>
     <assignment idref="r1"/>
@@ -215,39 +213,38 @@
   </task>
   <task id="t41">
     <title>v0.1release</title>
-    <leveled-start>2013-03-05T03:00:00.000Z</leveled-start>
+    <leveled-start>2013-03-25T13:00:00.000Z</leveled-start>
     <effort>1080000</effort>
     <prerequisite-task idref="t38"/>
     <assignment idref="r1"/>
   </task>
   <task id="t45">
     <title>模块细化</title>
-    <leveled-start>2012-12-14T12:00:00.000Z</leveled-start>
+    <leveled-start>2013-01-04T09:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r1"/>
   </task>
   <task id="t46">
     <title>自动化测试环境</title>
     <schedule-type>alap</schedule-type>
-    <leveled-start>2012-12-16T05:00:00.000Z</leveled-start>
+    <leveled-start>2013-01-06T02:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r1"/>
   </task>
   <task id="t47">
     <title>情景CheckList</title>
-    <leveled-start>2012-12-15T10:00:00.000Z</leveled-start>
+    <leveled-start>2013-01-05T04:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r1"/>
   </task>
   <task id="t48">
     <title>功能CheckList</title>
     <schedule-type>alap</schedule-type>
-    <leveled-start>2012-12-17T03:00:00.000Z</leveled-start>
+    <leveled-start>2013-01-06T13:00:00.000Z</leveled-start>
     <effort>28800</effort>
     <assignment idref="r1"/>
   </task>
   <critical-path root="-1" enabled="false" resources="false">
     <color r="1" g="0.5" b="0.5"/>
   </critical-path>
-  <tracking-changes/>
 </scenario>
