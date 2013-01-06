@@ -1,0 +1,1002 @@
+
+{
+  "activeScript" : "float PTM = 32;\nimage[] imgs = si();\nfor (uint i =0; i < imgs.length; i++)\nimgs[i].setScale( imgs[i].getPixelHeight() / PTM );\n",
+  "metaworld" : 
+  {
+    "allowSleep" : true,
+    "autoClearForces" : true,
+    "continuousPhysics" : true,
+    "gravity" : 
+    {
+      "x" : 0,
+      "y" : -10.0
+    },
+    "metabody" : 
+    [
+      
+      {
+        "angle" : 4.712388992309570,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 6,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178150102496147,
+                -0.1178131178021431,
+                -0.1178131029009819,
+                0.1178150251507759
+              ],
+              "y" : 
+              [
+                -0.3291260600090027,
+                -0.3291260600090027,
+                0.3291260898113251,
+                0.3291260898113251
+              ]
+            }
+          }
+        ],
+        "id" : 6,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895419508218765,
+        "massData-center" : 
+        {
+          "x" : 9.527223596705880e-07,
+          "y" : 1.601214094648640e-08
+        },
+        "massData-mass" : 0.4653081893920898,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 0.001713784527964890,
+          "y" : 1.916817426681519
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 1.570796370506287,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 5,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178150027990341,
+                -0.1178130060434341,
+                -0.1178130954504013,
+                0.1178150326013565
+              ],
+              "y" : 
+              [
+                -0.3291260898113251,
+                -0.3291260898113251,
+                0.3291260600090027,
+                0.3291260600090027
+              ]
+            }
+          }
+        ],
+        "id" : 5,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895418949425220,
+        "massData-center" : 
+        {
+          "x" : 9.827455187405576e-07,
+          "y" : 1.601214627555692e-08
+        },
+        "massData-mass" : 0.4653080701828003,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 0.001715596183203161,
+          "y" : -0.5529251694679260
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 3.141592741012573,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 2,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178149878978729,
+                -0.1178131401538849,
+                -0.1178130805492401,
+                0.1178150475025177
+              ],
+              "y" : 
+              [
+                -0.3291260600090027,
+                -0.3291260600090027,
+                0.3291262388229370,
+                0.3291262388229370
+              ]
+            }
+          }
+        ],
+        "id" : 2,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895420253276825,
+        "massData-center" : 
+        {
+          "x" : 9.527223028271692e-07,
+          "y" : 8.806676277117731e-08
+        },
+        "massData-mass" : 0.4653082787990570,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 1.236585021018982,
+          "y" : 0.6819460988044739
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 8,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178150177001953,
+                -0.1178131103515625,
+                -0.1178131103515625,
+                0.1178150177001953
+              ],
+              "y" : 
+              [
+                -0.3291262388229370,
+                -0.3291262388229370,
+                0.3291260600090027,
+                0.3291260600090027
+              ]
+            }
+          }
+        ],
+        "id" : 8,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895420253276825,
+        "massData-center" : 
+        {
+          "x" : 9.527223028271692e-07,
+          "y" : -8.806676277117731e-08
+        },
+        "massData-mass" : 0.4653082787990570,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : -1.233157396316528,
+          "y" : 0.6819460988044739
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 4.0,
+            "friction" : 0.2000000029802322,
+            "id" : 7,
+            "name" : "wheel_front_center",
+            "shapes" : 
+            [
+              
+              {
+                "radius" : 0.8950655460357666,
+                "type" : "circle"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : [ 1.811422407627106e-06 ],
+              "y" : [ 0.0 ]
+            }
+          }
+        ],
+        "id" : 7,
+        "linearVelocity" : 0,
+        "massData-I" : 4.032730579376221,
+        "massData-center" : 
+        {
+          "x" : 1.811422521313943e-06,
+          "y" : 0
+        },
+        "massData-mass" : 10.06745147705078,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 0.001713784527964890,
+          "y" : 0.6819460988044739
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 0.7853981852531433,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 1,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178149357438087,
+                -0.1178131252527237,
+                -0.1178130954504013,
+                0.1178150177001953
+              ],
+              "y" : 
+              [
+                -0.3291260004043579,
+                -0.3291260600090027,
+                0.3291260600090027,
+                0.3291260004043579
+              ]
+            }
+          }
+        ],
+        "id" : 1,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895418204367161,
+        "massData-center" : 
+        {
+          "x" : 9.267029668080795e-07,
+          "y" : 1.601214627555692e-08
+        },
+        "massData-mass" : 0.4653080403804779,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : -0.8714712858200073,
+          "y" : -0.1912390589714050
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 5.497786998748779,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 3,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178150773048401,
+                -0.1178126037120819,
+                -0.1178131029009819,
+                0.1178150102496147
+              ],
+              "y" : 
+              [
+                -0.3291263282299042,
+                -0.3291265368461609,
+                0.3291259407997131,
+                0.3291258811950684
+              ]
+            }
+          }
+        ],
+        "id" : 3,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895418576896191,
+        "massData-center" : 
+        {
+          "x" : 1.084823338715069e-06,
+          "y" : -1.681276131648701e-07
+        },
+        "massData-mass" : 0.4653078615665436,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : -0.8714712858200073,
+          "y" : 1.555132150650024
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 3.926990747451782,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 4,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178150922060013,
+                -0.1178126782178879,
+                -0.1178127303719521,
+                0.1178152114152908
+              ],
+              "y" : 
+              [
+                -0.3291260302066803,
+                -0.3291258215904236,
+                0.3291263580322266,
+                0.3291262984275818
+              ]
+            }
+          }
+        ],
+        "id" : 4,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895417459309101,
+        "massData-center" : 
+        {
+          "x" : 1.224930088028486e-06,
+          "y" : 2.441854292101198e-07
+        },
+        "massData-mass" : 0.4653077125549316,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 0.8749006390571594,
+          "y" : 1.555133104324341
+        },
+        "type" : "dynamic"
+      },
+      
+      {
+        "angle" : 2.356194496154785,
+        "angularVelocity" : 0,
+        "awake" : true,
+        "fixture" : 
+        [
+          
+          {
+            "density" : 3.0,
+            "filter-maskBits" : 65533,
+            "friction" : 1,
+            "id" : 9,
+            "name" : "fixture10",
+            "shapes" : 
+            [
+              
+              {
+                "type" : "polygon"
+              }
+            ],
+            "vertices" : 
+            {
+              "x" : 
+              [
+                0.1178150102496147,
+                -0.1178130507469177,
+                -0.1178130581974983,
+                0.1178150027990341
+              ],
+              "y" : 
+              [
+                -0.3291260600090027,
+                -0.3291260302066803,
+                0.3291261494159698,
+                0.3291261196136475
+              ]
+            }
+          }
+        ],
+        "id" : 9,
+        "linearVelocity" : 0,
+        "massData-I" : 0.01895419135689735,
+        "massData-center" : 
+        {
+          "x" : 9.747393505676882e-07,
+          "y" : 4.803643349760023e-08
+        },
+        "massData-mass" : 0.4653080999851227,
+        "name" : "wheel",
+        "position" : 
+        {
+          "x" : 0.8749006390571594,
+          "y" : -0.1912398636341095
+        },
+        "type" : "dynamic"
+      }
+    ],
+    "metaimage" : 
+    [
+      
+      {
+        "body" : 7,
+        "center" : 
+        {
+          "x" : 4.450557753443718e-07,
+          "y" : 1.788139343261719e-07
+        },
+        "file" : "/Users/yehai2050/KoboldTouch/KoboldTouch-5.99.9_Y2012-M11-D23/uTrucker/Assets/R.U.B.E/wheel.png",
+        "filter" : 1,
+        "id" : 10,
+        "name" : "wheel",
+        "opacity" : 1,
+        "scale" : 2.781250
+      }
+    ],
+    "metajoint" : 
+    [
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808423995971680,
+          "y" : -0.4365952908992767
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808416545391083,
+          "y" : 0.4365915656089783
+        },
+        "bodyA" : 6,
+        "bodyB" : 3,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 14,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808429509401321,
+          "y" : -0.4365952610969543
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808432489633560,
+          "y" : 0.4365952908992767
+        },
+        "bodyA" : 1,
+        "bodyB" : 5,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 13,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : -1.443549990653992e-08,
+          "y" : 1.234870433807373
+        },
+        "anchorB" : 
+        {
+          "x" : 4.164716245042198e-18,
+          "y" : 3.492459654808044e-10
+        },
+        "bodyA" : 7,
+        "bodyB" : 6,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 5,
+        "localAxisA" : 
+        {
+          "x" : 0,
+          "y" : -1.0
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808432191610336,
+          "y" : 0.4365915060043335
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808426231145859,
+          "y" : -0.4365915060043335
+        },
+        "bodyA" : 9,
+        "bodyB" : 5,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 4,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808424293994904,
+          "y" : -0.4365913867950439
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808431148529053,
+          "y" : 0.4365916848182678
+        },
+        "bodyA" : 3,
+        "bodyB" : 8,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 2,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808414012193680,
+          "y" : -0.4365951716899872
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808431148529053,
+          "y" : 0.4365953505039215
+        },
+        "bodyA" : 2,
+        "bodyB" : 4,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 15,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : -0.8731849789619446,
+          "y" : -0.8731850385665894
+        },
+        "anchorB" : 
+        {
+          "x" : 1.264405398160307e-07,
+          "y" : 4.214684778958144e-08
+        },
+        "bodyA" : 7,
+        "bodyB" : 1,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 17,
+        "localAxisA" : 
+        {
+          "x" : 0.7071068286895752,
+          "y" : 0.7071068286895752
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808413714170456,
+          "y" : 0.4365915358066559
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808424144983292,
+          "y" : -0.4365913867950439
+        },
+        "bodyA" : 2,
+        "bodyB" : 9,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 11,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 6.158556461334229,
+          "y" : -2.676231861114502
+        },
+        "anchorB" : 
+        {
+          "x" : 3.492459654808044e-10,
+          "y" : 0
+        },
+        "bodyA" : 3,
+        "bodyB" : 7,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 10,
+        "localAxisA" : 
+        {
+          "x" : 0,
+          "y" : 1
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "front_wheel",
+        "springDampingRatio" : 0.6999999880790710,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : -0.8731849193572998,
+          "y" : 0.8731855750083923
+        },
+        "anchorB" : 
+        {
+          "x" : 4.214684068415409e-08,
+          "y" : 4.214685489500880e-08
+        },
+        "bodyA" : 7,
+        "bodyB" : 3,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 1,
+        "localAxisA" : 
+        {
+          "x" : 0.7071064114570618,
+          "y" : -0.7071071863174438
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808431148529053,
+          "y" : -0.4365915656089783
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808420866727829,
+          "y" : 0.4365915060043335
+        },
+        "bodyA" : 8,
+        "bodyB" : 1,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 7,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.8731851577758789,
+          "y" : 0.8731850981712341
+        },
+        "anchorB" : 0,
+        "bodyA" : 7,
+        "bodyB" : 4,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 6,
+        "localAxisA" : 
+        {
+          "x" : -0.7071067690849304,
+          "y" : -0.7071067690849304
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 5.413312464952469e-08,
+          "y" : -1.234870195388794
+        },
+        "anchorB" : 
+        {
+          "x" : 1.192092895507812e-07,
+          "y" : -3.492511835290202e-10
+        },
+        "bodyA" : 7,
+        "bodyB" : 5,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 9,
+        "localAxisA" : 
+        {
+          "x" : -1.467095216867165e-06,
+          "y" : 1
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.1808436810970306,
+          "y" : -0.4365913867950439
+        },
+        "anchorB" : 
+        {
+          "x" : 0.1808423995971680,
+          "y" : 0.4365952908992767
+        },
+        "bodyA" : 4,
+        "bodyB" : 6,
+        "collideConnected" : false,
+        "enableLimit" : false,
+        "enableMotor" : false,
+        "id" : 16,
+        "lowerLimit" : 0,
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "tire",
+        "referenceAngle" : 0,
+        "type" : "revolute",
+        "upperLimit" : 0
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : -1.234870314598083,
+          "y" : 0
+        },
+        "anchorB" : 0,
+        "bodyA" : 7,
+        "bodyB" : 8,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 12,
+        "localAxisA" : 
+        {
+          "x" : 1,
+          "y" : 0
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 1.234870076179504,
+          "y" : 0
+        },
+        "anchorB" : 0,
+        "bodyA" : 7,
+        "bodyB" : 2,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 3,
+        "localAxisA" : 
+        {
+          "x" : -1.0,
+          "y" : 0
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      },
+      
+      {
+        "anchorA" : 
+        {
+          "x" : 0.8731850385665894,
+          "y" : -0.8731850385665894
+        },
+        "anchorB" : 
+        {
+          "x" : 2.107342389479072e-08,
+          "y" : -2.107342389479072e-08
+        },
+        "bodyA" : 7,
+        "bodyB" : 9,
+        "collideConnected" : false,
+        "enableMotor" : false,
+        "id" : 8,
+        "localAxisA" : 
+        {
+          "x" : -0.7071071863174438,
+          "y" : 0.7071064710617065
+        },
+        "maxMotorTorque" : 0,
+        "motorSpeed" : 0,
+        "name" : "scroll",
+        "springDampingRatio" : 0.8999999761581421,
+        "springFrequency" : 25.0,
+        "type" : "wheel"
+      }
+    ],
+    "positionIterations" : 3,
+    "stepsPerSecond" : 60.0,
+    "subStepping" : false,
+    "velocityIterations" : 8,
+    "warmStarting" : true
+  }
+}
