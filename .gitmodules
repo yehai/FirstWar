@@ -1,3 +1,3 @@
-[submodule "03 Code/uTrucker"]
-	path = 03 Code/uTrucker
+[submodule "03_Code/uTrucker"]
+	path = 03_Code/uTrucker
 	url = https://yehai@github.com/yehai/uTrucker.git
