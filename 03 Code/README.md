@@ -1,4 +1,4 @@
 FirstWar
 ========
 
-My first cocos2d-iphone project.
+代码。
